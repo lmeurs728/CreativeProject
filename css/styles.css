@@ -1,0 +1,33 @@
+@font-face {
+	font-family: permanentMarker;
+	src: url("/Permanent_Marker/PermanentMarker-Regular.ttf");
+}
+
+html {
+	height: 100%;
+}
+
+.navbar {
+	background-color: #245f12 !important;
+}
+
+.brand {
+	font-family: permanentMarker !important;
+	color: rgb(0, 38, 255);
+}
+
+@media only screen and (max-device-width : 640px) {
+	.box-shadow {
+		box-shadow: 0 0 0 0;
+		width: 100%;
+		padding: 0.5rem;
+		font-weight: bold;
+	}
+}
+
+.box-shadow {
+	box-shadow: 0 0 0 0.125rem;
+	padding: 0.5rem;
+	font-weight: bold;
+}
+
